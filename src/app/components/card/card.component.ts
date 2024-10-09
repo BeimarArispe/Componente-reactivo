@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ButtonConfig } from '../../type/types';
+import { CardConfig } from '../../type/types';
 
 
 @Component({
@@ -13,10 +13,10 @@ export class CardComponent {
   @Input() title!: string;
   @Input() imageSrc!: string;
 
-  buttonConfig!: ButtonConfig;
+  cardConfig!: CardConfig;
 
   ngOnInit() {
-    this.buttonConfig = {
+    this.cardConfig = {
       title: this.title,
       imageSrc: this.imageSrc
     };

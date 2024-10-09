@@ -1,4 +1,4 @@
-export interface ButtonConfig {
+export interface CardConfig {
     title: string;
     imageSrc: string;
 }
