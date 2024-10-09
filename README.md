@@ -20,22 +20,22 @@ La estructura de carpetas ha sido organizada de tal madera que pueda ser escalab
 
 Las interfaces han sido correctamente tipadas para asegurar que se sigan las especificaciones necesaria
 
-##Estilos
+## Estilos
 
 Se han realizado modificaciones a los estilos de la página utilizando Tailwind CSS para asegurar que la interfaz sea intuitiva y atractiva. Las clases de Tailwind han sido utilizadas para manejar el diseño y la responsividad de la aplicación.
 
-##Instalación
+## Instalación
 
 Para instalar las dependencias y ejecutar el proyecto, asegúrate de tener Node.js y Angular CLI instalados. Luego, ejecuta los siguientes comandos en tu terminal:
 
-# Clona el repositorio
+### Clona el repositorio
 git clone <URL_DEL_REPOSITORIO>
 
-# Navega a la carpeta del proyecto
+### Navega a la carpeta del proyecto
 cd nombre-del-proyecto
 
-# Instala las dependencias
+### Instala las dependencias
 npm install
 
-# Inicia el servidor de desarrollo
+### Inicia el servidor de desarrollo
 ng serve
